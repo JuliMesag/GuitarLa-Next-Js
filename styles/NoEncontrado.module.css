@@ -1,0 +1,30 @@
+.no_encontrado{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.no_encontrado h1{
+    color: #000;
+}
+.no_encontrado a{
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+    margin-top: 2rem;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    border: 1px solid var(--primary) ;
+    color: var(--blanco);
+    padding: 1rem 2rem;
+    transition-property: background-color;
+    transition-duration: .4s;
+    border-radius: 0.3rem;
+}
